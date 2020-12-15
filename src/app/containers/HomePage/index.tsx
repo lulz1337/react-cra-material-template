@@ -1,25 +1,125 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { NavBar } from '../NavBar';
-import { Masthead } from './Masthead';
-import { Features } from './Features';
-import { PageWrapper } from 'app/components/PageWrapper';
+import Avatar from '@material-ui/core/Avatar';
+import Button from '@material-ui/core/Button';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import TextField from '@material-ui/core/TextField';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Checkbox from '@material-ui/core/Checkbox';
+import Link from '@material-ui/core/Link';
+import Grid from '@material-ui/core/Grid';
+import Box from '@material-ui/core/Box';
+import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
+import { withStyles } from '@material-ui/core';
+import theme from 'styles/theme';
+import styled from 'styled-components/macro';
+import { useTranslation } from 'react-i18next';
 
 export function HomePage() {
+  const { t } = useTranslation();
   return (
     <>
       <Helmet>
-        <title>Home Page</title>
-        <meta
-          name="description"
-          content="A React Boilerplate application homepage"
-        />
+        <title>{t('homePage.pageTitle')}</title>
+        <meta name="description" content={t('homePage.pageMeta')} />
       </Helmet>
-      <NavBar />
-      <PageWrapper>
-        <Masthead />
-        <Features />
-      </PageWrapper>
+
+      <Container component="main" maxWidth="xs">
+        <CssBaseline />
+        <Paper>
+          <PaperAvatar>
+            <LockOutlinedIcon />
+          </PaperAvatar>
+          <Typography component="h1" variant="h5">
+            {t('homePage.signIn')}
+          </Typography>
+          <Form noValidate>
+            <TextField
+              label={t('homePage.form.email')}
+              variant="outlined"
+              margin="normal"
+              required
+              fullWidth
+              id="email"
+              name="email"
+              autoComplete="email"
+              autoFocus
+            />
+            <TextField
+              label={t('homePage.form.password')}
+              variant="outlined"
+              margin="normal"
+              required
+              fullWidth
+              name="password"
+              type="password"
+              id="password"
+              autoComplete="current-password"
+            />
+            <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label={t('homePage.form.checkbox')}
+            />
+            <SubmitButton
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+            >
+              {t('homePage.form.submitButton')}
+            </SubmitButton>
+            <Grid container>
+              <Grid item xs>
+                <Link href="#" variant="body2">
+                  {t('homePage.form.forgotPassword')}
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link href="#" variant="body2">
+                  {t('homePage.form.forgotPasswordHint')}
+                </Link>
+              </Grid>
+            </Grid>
+          </Form>
+        </Paper>
+        <Box mt={8}>
+          <Typography variant="body2" color="textSecondary" align="center">
+            {'Copyright © '}
+            <Link color="inherit" href={t('homePage.copyrightLink')}>
+              React CRA Material Template
+            </Link>{' '}
+            {new Date().getFullYear()}
+            {'.'}
+          </Typography>
+        </Box>
+      </Container>
     </>
   );
 }
+
+const SubmitButton = withStyles({
+  root: {
+    margin: theme.spacing(3, 0, 2),
+  },
+})(Button);
+
+const PaperAvatar = withStyles({
+  root: {
+    margin: theme.spacing(1),
+    backgroundColor: theme.palette.secondary.main,
+  },
+})(Avatar);
+
+const Form = styled.form`
+  width: 100%;
+  margin-top: ${theme.spacing(1)};
+`;
+
+const Paper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: ${theme.spacing(8)};
+`;

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b1d9100-9b74-485c-ac52-8986132cf1e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/scripts/clean.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/components/NotFoundPage/Loadable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/components/NotFoundPage/P.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/components/NotFoundPage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/containers/HomePage/Loadable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/containers/HomePage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/app/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/locales/__tests__/i18n.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/locales/en/translation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/locales/i18n.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/locales/translations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/locales/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/store/__tests__/configureStore.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/store/__tests__/reducer.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/store/configureStore.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/store/reducers.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/styles/__tests__/media.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/styles/global-styles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/styles/media.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/types/RootState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/utils/@reduxjs/toolkit.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/utils/loadable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/utils/messages.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/utils/redux-injectors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/src/utils/types/injector-typings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internals/startingTemplate/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/A/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/A/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/FormLabel/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/FormLabel/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Link/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Link/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Link/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/LoadingIndicator/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/LoadingIndicator/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/LoadingIndicator/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/PageWrapper/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Radio/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/RepoItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/RepoItem.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/__snapshots__/RepoItem.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/__snapshots__/saga.test.ts.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/saga.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/selectors.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/__tests__/slice.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/assets/new-window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/assets/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/components/Input.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/components/TextButton.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/components/__tests__/TextButton.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/components/__tests__/input.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/saga.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/selectors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/slice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/GithubRepoForm/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/Features.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/Loadable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/containers/HomePage/Loadable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/Logos.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/Masthead.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/Features.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/Logos.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/Masthead.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/__snapshots__/Features.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/__snapshots__/Logos.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/__snapshots__/Masthead.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/code-analysis.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/cra-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/css.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/instant-feedback.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/intl.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/offline-first.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/plus-sign.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/route.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/rp-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/scaffolding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/seo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/state.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/assets/ts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/Lead.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/P.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/SubTitle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/Title.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/Lead.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/P.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/Subtitle.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/Title.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/__snapshots__/Lead.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/__snapshots__/P.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/__snapshots__/Subtitle.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/components/__tests__/__snapshots__/Title.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/containers/HomePage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/HomePage/messages.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/LanguageSwitch/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/LanguageSwitch/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/LanguageSwitch/messages.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/Logo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/Nav.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/__tests__/Logo.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/__tests__/Nav.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/__tests__/__snapshots__/Logo.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/__tests__/__snapshots__/Nav.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/assets/documentation-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/assets/github-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NavBar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NotFoundPage/Loadable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NotFoundPage/P.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NotFoundPage/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NotFoundPage/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/NotFoundPage/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/ThemeSwitch/__tests__/index.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/containers/ThemeSwitch/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/__tests__/i18n.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/__tests__/i18n.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/de/translation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/i18n.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/i18n.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/configureStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configureStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/StyleConstants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/global-styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/global-styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/ThemeProvider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/__tests__/ThemeProvider.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/__tests__/slice.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/__tests__/utils.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/slice.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/styled.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/themes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/theme/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/Repo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/RootState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/RootState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/__tests__/__snapshots__/loadable.test.tsx.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/__tests__/loadable.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/__tests__/request.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lgRg6lgQOGjFpvMIS84calTp3T" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.generate">
+    <configuration name="cleanAndSetup" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cleanAndSetup" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="generate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.generate" />
+        <item itemvalue="npm.cleanAndSetup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b1d9100-9b74-485c-ac52-8986132cf1e4" name="Default Changelist" comment="" />
+      <created>1608016857899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608016857899</updated>
+      <workItem from="1608016859598" duration="5921000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
